@@ -4,7 +4,6 @@ import AddData from './add-data'
 import ChartProperties from './chart-properties'
 const PieChart = require('react-d3/piechart').PieChart;
 
-
 export default class App extends Component {
     constructor(props) {
       super(props)
@@ -24,7 +23,6 @@ export default class App extends Component {
     updateData(data) {
       this.setState(data)
     }
-
     render () {
         return (
           <div className="container">
